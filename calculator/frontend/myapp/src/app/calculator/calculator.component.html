@@ -1,0 +1,40 @@
+<div class="form">
+
+  <div class = screen>
+    <p class="p1">{{UpperString}}</p>
+    <p class="p2">{{LowerString}}</p>
+  </div>
+
+  <button (click)="OneSideOperator('percent')">%</button>
+  <button (click)="clear()">CE</button>
+  <button (click)="clear()">C</button>
+  <button (click)="back()">Del</button>
+  <br>
+  <button (click)="OneSideOperator('reciprocal')">1/x</button>
+  <button (click)="OneSideOperator('square')">X²</button>
+  <button (click)="OneSideOperator('root')">sqrt(x)</button>
+  <button (click)="PressOperator('/')">/</button>
+  <br>
+  <button (click)="PressNumber(7)">7</button>
+  <button (click)="PressNumber(8)">8</button>
+  <button (click)="PressNumber(9)">9</button>
+  <button (click)="PressOperator('x')">x</button>
+  <br>
+  <button (click)="PressNumber(4)">4</button>
+  <button (click)="PressNumber(5)">5</button>
+  <button (click)="PressNumber(6)">6</button>
+  <button (click)="PressOperator('-')">-</button>
+  <br>
+  <button (click)="PressNumber(1)" type="button">1</button>
+  <button (click)="PressNumber(2)">2</button>
+  <button (click)="PressNumber(3)">3</button>
+  <button (click)="PressOperator('+')">+</button>
+  <br>
+  <button (click)="ChangeSign()">+-</button>
+  <button (click)="PressNumber(0)">0</button>
+  <button (click)="PressPoint()">.</button>
+  <button (click)="PressEqual()">=</button>
+</div>
+
+
+<!--<button (click)="Debug()">Debug</button>-->

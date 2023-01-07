@@ -1,0 +1,35 @@
+.form{
+  width: 340px;
+  margin: auto;
+  box-shadow: 0 2px 20px;
+}
+
+.screen
+{
+  background-color: white;
+  height: 100px;
+  font-size: 40px;
+
+}
+
+button {
+  background-color: darkgray;
+  width: 85px;
+  height: 85px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 14px;
+}
+button:active
+{
+  background-color: lightsteelblue;
+}
+.p1
+{
+  font-size: 15px;
+}
+.p2
+{
+  font-size: 30px;
+}
